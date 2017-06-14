@@ -17,7 +17,7 @@ import random
 import sys
 
 #path = get_file('nietzsche.txt', origin='https://s3.amazonaws.com/text-datasets/nietzsche.txt')
-filename = "nietzsche"
+filename = "prison_break_1"
 text = open(filename+'.txt',encoding='utf-8').read().lower().replace("\n",' ').replace("--"," ").replace("  "," ").replace('\r\n',' ')
 texts = text.split(' ')
 print("texts length:",len(texts))
