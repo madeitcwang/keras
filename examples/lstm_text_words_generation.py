@@ -46,8 +46,7 @@ print('indices_char length:',len(indices_char))
 # cut the text in semi-redundant sequences of maxlen characters
 maxlen = 40
 step = 3
-leng = 5000
-dlen = 3800
+
 sentences = []
 next_chars = []
 
